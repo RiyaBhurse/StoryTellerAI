@@ -1,0 +1,150 @@
+.page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Fix height to viewport, like Page 2 */
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 0; /* Remove padding */
+    padding-top: 60px; /* Add padding to account for navbar height */
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    flex: 1; /* Allow the body to take up remaining space */
+    overflow: hidden; /* Prevent internal scrolling */
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .story-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px; /* Limit image height to fit within viewport */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .story-section {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-height: 400px; /* Limit height to fit within viewport */
+    overflow-y: auto;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px; /* Add margin to ensure buttons are visible */
+  }
+  
+  .continue-btn,
+  .end-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .continue-btn {
+    background: linear-gradient(90deg, #6b48ff, #00ddeb);
+    color: white;
+  }
+  
+  .end-btn {
+    background: linear-gradient(90deg, #ff4d4d, #ff8c8c);
+    color: white;
+  }
+  
+  .continue-btn:hover,
+  .end-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .add-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-input:focus {
+    border-color: #6b48ff;
+  }
+  
+  .add-btn {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #28a745, #34c759);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }

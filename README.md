@@ -1,4 +1,4 @@
-# StoryTeller - A Magical Story and Image Generator
+S# StoryTeller - A Magical Story and Image Generator
 
 Welcome to StoryTeller! This is a fun and creative web app that lets you create magical stories and stunning images just by typing a simple idea, like "A magical forest with talking trees." It uses smart artificial intelligence (AI) tools to bring your imagination to life. The project has two main parts: a **frontend** (the part you see and use, built with React) and a **backend** (the behind-the-scenes magic, built with Node.js). It’s like your own digital storybook where you’re the author!
 
@@ -13,21 +13,8 @@ StoryTeller is packed with exciting features to spark your creativity:
 
 ## How the Project is Organized
 Imagine StoryTeller like a big toy box with two special sections to keep everything tidy:
-story-game/
-├── story-game-frontend/  # The fun part you play with (like a website)
-│   ├── src/              # Where the app’s pages are built
-│   │   ├── pages/        # Different screens you’ll see
-│   │   │   ├── page1/    # The welcome screen to start your adventure
-│   │   │   ├── page2/    # Where you type your story idea
-│   │   │   ├── page3/    # Where your story and image appear
-│   │   │   ├── page4/    # A place to see your saved stories
-│   │   │   └── page5/    # The ending screen
-│   ├── public/           # Holds pictures and setup files (like the app’s cover)
-│   └── package.json      # A list of tools needed for the frontend
-├── story-game-backend/   # The hidden helper part
-│   ├── server.js         # The brain that talks to the AI to create stories and images
-│   └── package.json      # A list of tools needed for the backend
-└── README.md             # This guide you’re reading now!
+![image](https://github.com/user-attachments/assets/358559df-23ff-4784-8882-5b024cb83778)
+
 
 
 This setup keeps everything organized, like chapters in a well-planned book!
